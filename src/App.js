@@ -17,9 +17,9 @@ function App() {
       <div>
         <Bienvenida dato='nombre'/>
         <Bienvenida dato='apellido'/>
-        <Licencias />
-        <Estudios />
-        <Aptitudes />
+        <Licencias academia='academia' curso='curso' aptitudes_relacionadas='aptitudes relacionadas a la licencia' diploma='diploma.jpg' />
+        <Estudios inicio='inicio' fin='fin' estudio='estudio' />
+        <Aptitudes aptitud='aptitud' lugar='lugar aptitud' />
       </div>
 
       <footer className='row'>

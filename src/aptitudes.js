@@ -12,10 +12,9 @@ export default class Aptitudes extends React.Component {
     render(){
         return(
             <div>
-            Aptitud
-            Aptitud
-            Aptitud
-            Aptitud
+            <h1>{this.props.aptitud}</h1>
+            <br></br>
+            aprendí "<b>{this.props.aptitud}</b>" en {this.props.lugar}
             </div>
         )
     }

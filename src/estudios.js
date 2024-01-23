@@ -12,8 +12,9 @@ export default class Estudios extends React.Component {
     render(){
         return(
             <div>
-            ESTUDIE EN 
-            BLABLABLABLABLABLABLABLAB
+            <h1>{this.props.estudio}</h1>
+            {/* ACÁ IRÍA UN BOOLEANO  DE "COMPLETO/INCOMPLETO" PERO NO SÉ CÓMO SE PONE :'3*/}
+            {this.props.inicio} - {this.props.fin}
             </div>
         )
     }

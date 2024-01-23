@@ -12,9 +12,12 @@ export default class Licencias extends React.Component {
     render(){
         return(
             <div>
-            Academia:
-            Curso:
-            Aptitudes:
+            <h1>{this.props.academia}</h1>
+            <i>{this.props.curso}</i>
+            <br></br>
+            {this.props.aptitudes_relacionadas}
+            <br></br>
+            {this.props.diploma}
             </div>
         )
     }
