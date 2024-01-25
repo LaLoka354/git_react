@@ -6,6 +6,12 @@ import Licencias from './licencias';
 import Estudios from './estudios';
 import Aptitudes from './aptitudes';
 
+import InicioPagina from './paginas/inicioPagina';
+import ContactoPagina from './paginas/contactoPagina';
+import Sobre_miPagina from './paginas/sobre_mi';
+
+import { Routes, Route, BrowserRouter as Router} from 'react-router-dom';
+
 
 function App() {
   return (
@@ -13,7 +19,15 @@ function App() {
       <header>
         <Menu /> 
       </header>
-
+      <Router>
+        <Routes>
+          <Route path='/' element={<InicioPagina />}/>
+          
+          <Route path='/' element={<ContactoPagina />}/>
+          
+          <Route path='/' element={<Sobre_miPagina />}/>
+        </Routes>
+      </Router>
       <div>
         <Bienvenida dato='nombre'/>
         <Bienvenida dato='apellido'/>

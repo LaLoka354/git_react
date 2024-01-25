@@ -5,7 +5,7 @@ export default class InicioPagina extends React.Component {
     render(){
         return(
             <div className="row">
-                <p>paginad e inicio</p>
+                <p>pagina de inicio</p>
             </div>
         )
     }

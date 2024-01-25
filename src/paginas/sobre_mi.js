@@ -1,6 +1,6 @@
 import React from "react"
 
-export default class Aptitudes extends React.Component {
+export default class Sobre_miPagina extends React.Component {
 
     constructor(props){
         super(props);
@@ -14,7 +14,7 @@ export default class Aptitudes extends React.Component {
             <div>
             <h1>{this.props.aptitud}</h1>
             <br></br>
-            aprendí "<b>{this.props.aptitud}</b>" en {this.props.lugar}
+            aprendí "<b>{this.props.aptitud}</b>" en "{this.props.lugar}"
             </div>
         )
     }

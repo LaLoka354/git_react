@@ -5,7 +5,7 @@ export default class ContactoPagina extends React.Component {
     render(){
         return(
             <div className="row">
-                <p>paginad e contacto</p>
+                <p>contacto</p>
             </div>
         )
     }
