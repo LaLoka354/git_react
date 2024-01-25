@@ -8,6 +8,7 @@ export default class Sobre_miPagina extends React.Component {
             //que lo vemos más adelante, chaval
         }
     }
+    
 
     render(){
         return(
