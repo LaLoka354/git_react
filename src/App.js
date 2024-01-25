@@ -1,27 +1,27 @@
 import './App.css';
-import Menu from './menu';
-import Footer from './footer'
+import Menu from './componentes/menu';
+import Footer from './componentes/footer';
 import Bienvenida from './Bienvenida';
-import Licencias from './licencias';
-import Estudios from './estudios';
-import Aptitudes from './aptitudes';
+import Licencias from './componentes/licencias';
+import Estudios from './componentes/estudios';
+import Aptitudes from './componentes/aptitudes';
 
 
 function App() {
   return (
-    <div className="container">
+    <div className="">
       <header>
         <Menu /> 
       </header>
-
-      <div>
-        <Bienvenida dato='nombre'/>
-        <Bienvenida dato='apellido'/>
-        <Licencias academia='academia' curso='curso' aptitudes_relacionadas='aptitudes relacionadas a la licencia' diploma='diploma.jpg' />
-        <Estudios inicio='inicio' fin='fin' estudio='estudio' />
-        <Aptitudes aptitud='aptitud' lugar='lugar aptitud' />
+    <div className='container'>
+          <div>
+            <Bienvenida dato='nombre'/>
+            <Bienvenida dato='apellido'/>
+            <Licencias />
+            <Estudios />
+            <Aptitudes />
+          </div>
       </div>
-
       <footer className='row'>
         <div className='col-12 d-flex'>
           <Footer />

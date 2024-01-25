@@ -1,0 +1,26 @@
+.classButton {
+    color:blue
+}
+
+.classGradienteMenu {
+    background: linear-gradient(to right, #ff3366, #33ccff);
+    background-size: 200% 100%; /* Ajustar el tamaño del fondo al 200% para permitir la transición */
+    transition: background-position 0.5s ease; /* Aplicar la transición solo a la posición del fondo */
+  }
+  
+.classGradienteMenu:hover {
+    background-position: 100% 0; /* Cambiar la posición del fondo al pasar el mouse */
+  }
+
+.elemento {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    transition: background 1s ease; /* Transición de 1 segundo en todas las propiedades de background */
+  }
+  
+.elemento:hover {
+    background: red;
+  }
+  
+  
