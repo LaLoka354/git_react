@@ -9,11 +9,11 @@ import Aptitudes from './componentes/aptitudes';
 
 function App() {
   return (
-    <div className="">
+    <div className="container-fluid classContainer" >
       <header>
         <Menu /> 
       </header>
-    <div className='container'>
+      <div className='classContainer2 container'>
           <div>
             <Bienvenida dato='nombre'/>
             <Bienvenida dato='apellido'/>

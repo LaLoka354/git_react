@@ -1,5 +1,45 @@
-.classButton {
-    color:blue
+@font-face {
+    font-family: 'fuente';
+    src: url('./FONTS/fuente2.otf') format('truetype');
+  }
+
+.classButtonLink {
+    
+    color:#910A67;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px;
+    padding: 7px;
+    border-radius: 10%;
+    transition: all 0.6s ease;
+    border: 2px solid #910A67;
+    margin-right: 10px;
+    background-color: transparent;
+    }
+.classButtonLink:hover {
+    box-shadow: 0px 0px 10px #E5E5E5, 0px 0px 10px #E5E5E5 inset;
+    text-shadow:  2px 2px 4px #fff;
+    border: 2px solid #E5E5E5;
+    color:#E5E5E5;
+    transition: 0.6s ease-in-out;
+    margin-right: 50px;
+    border-radius: 0%;
+    font-size: 105%;
+
+}
+
+.pruebaFuente {
+    color:#030637;
+    font-size: 70px;
+    font-family: "fuente";
+    margin: 3px;
+    transition: all 1s ease;
+}
+
+.pruebaFuente:hover{
+    color:#E5E5E5;
+    font-size:80px;
+    margin-right: 50px;
 }
 
 .classGradienteMenu {
@@ -10,17 +50,17 @@
   
 .classGradienteMenu:hover {
     background-position: 100% 0; /* Cambiar la posición del fondo al pasar el mouse */
+
   }
 
-.elemento {
-    width: 100px;
-    height: 100px;
-    background: blue;
-    transition: background 1s ease; /* Transición de 1 segundo en todas las propiedades de background */
-  }
-  
-.elemento:hover {
-    background: red;
-  }
+
+.classContainer {
+    background: #030637;
+    }
+
+.classContainer {
+    background: #030637;
+    }    
+
   
   

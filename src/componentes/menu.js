@@ -7,14 +7,11 @@ export default class Menu extends React.Component {
         return(
             <div className="row">
                 <div className="classGradienteMenu col-12 d-flex align-items-center">
-                    <h1> Lua </h1>
-                    <span className="mx-2"> Inicio </span>
-                    <span className="mx-2"> Portfolio </span>
-                    <span className="mx-2">boton ekisde</span>
-                    <span className="mx-2">Contacto</span>
-                </div>
-                <div className="elemento">
-                    hola
+                    <div className="pruebaFuente"> L . Medeiros  </div>
+                    <button className="classButtonLink"> Inicio </button>
+                    <button className="classButtonLink"> Portfolio </button>
+                    <button className="classButtonLink">boton ekisde</button>
+                    <button className="classButtonLink">Contacto</button>
                 </div>
             </div>
             
