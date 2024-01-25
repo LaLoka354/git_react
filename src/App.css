@@ -3,7 +3,7 @@
 }
 
 .classGradienteMenu {
-    background: linear-gradient(to right, #ff3366, #33ccff);
+    background: linear-gradient(to right, #910A67, #030637, #720455, #3C0753, #030637,   #910A67);
     background-size: 200% 100%; /* Ajustar el tamaño del fondo al 200% para permitir la transición */
     transition: background-position 0.5s ease; /* Aplicar la transición solo a la posición del fondo */
   }
