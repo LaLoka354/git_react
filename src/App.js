@@ -1,33 +1,36 @@
 import './App.css';
 import Menu from './componentes/menu';
 import Footer from './componentes/footer';
-import Bienvenida from './Bienvenida';
-import Licencias from './componentes/licencias';
-import Estudios from './componentes/estudios';
-import Aptitudes from './componentes/aptitudes';
 
+import InicioPagina from './paginas/inicioPagina';
+import ContactoPagina from './paginas/contactoPagina';
+import PortfolioPagina from './paginas/PortFolio';
+
+import { Routes, Route, BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="container-fluid classContainer" >
-      <header>
-        <Menu /> 
-      </header>
-      <div className='classContainer2 container'>
-          <div>
-            <Bienvenida dato='nombre'/>
-            <Bienvenida dato='apellido'/>
-            <Licencias />
-            <Estudios />
-            <Aptitudes />
-          </div>
+    <>
+      <div className="container-fluid classContainer" >
+        <Router>
+          <header>
+            <Menu /> 
+          </header>
+
+            
+            <Routes>
+              <Route path='/' element={<InicioPagina />} />
+              <Route path='/contacto' element={<ContactoPagina />} />
+              <Route path='/portfolio' element={<PortfolioPagina />} />
+            </Routes>
+
+
+        </Router>
       </div>
-      <footer className='row'>
-        <div className='col-12 d-flex'>
-          <Footer />
-        </div>
+      <footer className='container-fluid'>
+            <Footer />
       </footer>
-    </div>
+    </>
   );
 }
 

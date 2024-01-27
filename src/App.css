@@ -5,26 +5,53 @@
 
 .classButtonLink {
     
-    color:#910A67;
+    color:#c02a9f;
     font-weight: bold;
     font-size: 15px;
     margin: 10px;
     padding: 7px;
-    border-radius: 10%;
+    border-radius: 15px;
     transition: all 0.6s ease;
     border: 2px solid #910A67;
     margin-right: 10px;
     background-color: transparent;
+    text-decoration:none;
     }
 .classButtonLink:hover {
     box-shadow: 0px 0px 10px #E5E5E5, 0px 0px 10px #E5E5E5 inset;
-    text-shadow:  2px 2px 4px #fff;
+    text-shadow: 0px 0px 10px #E5E5E5;
     border: 2px solid #E5E5E5;
     color:#E5E5E5;
     transition: 0.6s ease-in-out;
     margin-right: 50px;
-    border-radius: 0%;
+    border-radius: 10px;
     font-size: 105%;
+
+}
+
+.classButtonLink2 {
+    
+    color:#c02a9f;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px;
+    padding: 15px;
+    transition: all 0.6s ease;
+    border: 2px solid #910A67;
+    margin-right: 10px;
+    background-color: transparent;
+    text-decoration:none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+.classButtonLink2:hover {
+    box-shadow: 0px 0px 10px #E5E5E5, 0px 0px 10px #E5E5E5 inset;
+    text-shadow: 0px 0px 10px #E5E5E5;
+    border: 2px solid #E5E5E5;
+    color:#E5E5E5;
+    transition: 0.6s ease-in-out;
+    border-radius: 10px;
 
 }
 
@@ -34,12 +61,14 @@
     font-family: "fuente";
     margin: 3px;
     transition: all 1s ease;
+    text-decoration: none;
 }
 
 .pruebaFuente:hover{
     color:#E5E5E5;
     font-size:80px;
     margin-right: 50px;
+    text-shadow: 0px 0px 10px #E5E5E5;
 }
 
 .classGradienteMenu {
@@ -54,13 +83,144 @@
   }
 
 
-.classContainer {
-    background: #030637;
-    }
+.classFooter{
+    width: auto;
+    background: linear-gradient(to right, #910A67, #030637, #720455, #3C0753, #030637,   #910A67);
+    background-size: 200% 100%; /* Ajustar el tamaño del fondo al 200% para permitir la transición */
+    transition: background-position 0.5s ease; /* Aplicar la transición solo a la posición del fondo */
+}
+
+.classFooter:hover{
+    
+    background-position: 100% 0; /* Cambiar la posición del fondo al pasar el mouse */
+}
+
 
 .classContainer {
+    background: #030637;
+    height: 100%;
+    }
+
+.classContainer2 {
     background: #030637;
     }    
 
-  
-  
+.imgHover {
+    width: 90%;
+    border-radius: 20px;
+    filter: grayscale(0%);
+    border: 2px solid #910A67;
+    transition: all 0.6s ease-in-out;
+}
+
+.imgHover:hover {
+    width: 95%;
+    border-radius: 20px;
+    margin: 10px;
+    filter: grayscale(100%);
+    box-shadow: 0px 0px 10px #910A67;
+
+}
+
+.classButtonLink3 {
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    transition: all 0.6s ease;
+    background-color: transparent;
+    border:none;
+    border-radius: 10px;
+    margin-right: 10px;
+    text-decoration:none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.classButtonLink3:hover {
+    color:#E5E5E5;
+    border: 2px solid #910A67;
+    font-size:16px;
+    border-radius: 0px;
+    text-shadow: 0px 0px 0px
+}
+
+.classButtonLink:active { 
+    background-color: #3C0753;
+}
+
+.classNone {
+    visibility: hidden;
+}
+
+.formLabel {
+    color:#c02a9f;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 15px;
+    transition: all 0.6s ease;
+    border-radius: 10px;
+    margin-right: 10px;
+    text-decoration:none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.formLabel:hover {
+    font-size: 17px;
+}
+
+.formInput {
+    color:#c02a9f;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 15px;
+    border: none;
+    transition: all 0.6s ease;
+    box-shadow: 0px 0px 10px #910A67;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: transparent;
+    text-decoration:none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.formInput:hover {
+    border-radius: 0px;
+}
+
+.formInput:active {
+    border-radius: 0%;
+    background-color: #c02a9f;
+}
+.pruebaFuente2 {
+    color:#720455;
+    font-size: 70px;
+    font-family: "fuente";
+    margin: 3px;
+    transition: all 1s ease;
+    text-decoration: none;
+}
+
+.pruebaFuente2:hover{
+    color:#E5E5E5;
+    font-size:80px;
+    margin-right: 50px;
+    text-shadow: 0px 0px 10px #E5E5E5;
+}
+
+.hola {
+    color: #030637;
+}
+
+.titulo1{
+    color:#c02a9f;
+}
