@@ -12,6 +12,7 @@ export default class Menu extends React.Component {
                     <Link className="classButtonLink" to={'/'}> <i class="bi bi-house-heart-fill"></i> Inicio <i class="bi bi-house-heart-fill"></i> </Link>
                     <Link className="classButtonLink" to={'/portfolio'}> <i class="bi bi-folder2-open"></i> Portfolio <i class="bi bi-folder2-open"></i> </Link>
                     <Link className="classButtonLink" to={'/contacto'}> <i class="bi bi-headset"></i> Contacto <i class="bi bi-headset"></i> </Link>
+                    <Link className="classButtonLink" to={'/apis'}> <i class="bi bi-headset"></i> Api <i class="bi bi-headset"></i> </Link>
                 </div>
             </div>
             
