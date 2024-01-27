@@ -25,6 +25,7 @@ export default class Licencias extends React.Component {
             <div className={(this.state.escondido ? 'col-3' : 'col-6')}>
                 <div className="titulo1">{this.props.curso} </div>
                 <br></br>
+                hola, soy otro conflicto con la otra rama
                 <br></br>
                 <br></br>
                 <Link className="classButtonLink3" onClick={this.toggleEsconder} > {(this.state.escondido ? 'VER LICENCIA' :'OCULTAR LICENCIA')} </Link>
